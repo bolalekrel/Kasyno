@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Logowania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <video autoplay loop muted playsinline id="backgroundVideo">
+        <source src="loop.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="clock"></div>
+        <img src="casino.png" alt="Logo kasyna" class="logo">
+        <h1>Panel Logowania</h1>
+    </header>
+    <div class="container">
+        <form id="loginForm">
+            <label for="username">Nazwa użytkownika:</label>
+            <input type="text" id="username" required>
+            <br>
+            <label for="password">Hasło:</label>
+            <input type="password" id="password" required>
+            <br>
+            <button type="submit">Zaloguj</button>
+            <button type="button" id="showPasswordButton">Pokaż hasło</button>
+        </form>
+        <form id="registerForm">
+            <label for="newUsername">Nowa nazwa użytkownika:</label>
+            <input type="text" id="newUsername" required>
+            <br>
+            <label for="newPassword">Nowe hasło:</label>
+            <input type="password" id="newPassword" required>
+            <br>
+            <button type="submit">Zarejestruj</button>
+            <button type="button" id="showPasswordButton2">Pokaż hasło</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2023 Hubert Bolałek Casino. Wszelkie prawa zastrzeżone.
+    </footer>
+
+    <script src="scripts.js"></script> 
+</body>
+</html>

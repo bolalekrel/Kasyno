@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasyno strona główna</title>
+    <link rel="stylesheet" href="styl2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <div class="clock"></div>
+        <img src="casino.png" alt="Logo kasyna" class="logo">
+        <h1>Gry</h1>
+        <p class="portfel">Portfel:</p>
+        <button id="resetPortfel">Resetuj Portfel</button>
+    
+        <button id="dodaj10zl">Dodaj 10 zł</button>
+        <button id="dodaj20zl">Dodaj 20 zł</button>
+        <button id="dodaj50zl">Dodaj 50 zł</button>
+        <button id="dodaj100zl">Dodaj 100 zł</button>
+        <button id="dodaj500zl">Dodaj 500 zł</button>
+    </header>
+    <div class="container">
+        <div class="ruletka">
+            <div class="napRuletka">Ruletka</div>
+            <div class="przyciski">
+                <button id="obstawCzerwony">OBSTAW CZERWONY</button>
+                <button id="obstawCzarny">OBSTAW CZARNY</button>
+                <button id="obstawZielony">OBSTAW ZIELONY</button>
+            </div>
+            <div class="zasady">Mnożnik</div>
+            <div class="mnoznik">
+                <p>Czerwone x2</p>
+                <p>Czarne x2</p>
+                <p>Zielone x16</p>
+            </div>
+        </div>
+        <div class="kpn">
+            <div class="napKPN">Kamień, Papier, Nożyce</div>
+            <div class="przyciski">
+                <button id="kamienButton">
+                    <img class="game-image" src="kamien.png" alt="Kamień">
+                </button>
+                <button id="papierButton">
+                    <img class="game-image" src="papier.png" alt="Papier">
+                </button>
+                <button id="nozyceButton">
+                    <img class="game-image" src="nozyce.png" alt="Nożyce">
+                </button>
+            </div>
+            <div class="mnoznik2">Mnożnik
+                <div class="pmnoznik">Wygrana x2</div>
+                <div class="pmnoznik2">Remis = zwrot</div>
+            </div>
+        </div>
+
+        <div class="moneta">
+            <div class="napThirdGame">Rzut monetą</div>
+            <div class="przyciski">
+                <button id="obstawOrzel">
+                    <img id="o"src="orzel.png" alt="orzel">
+                </button>
+                <button id="obstawReszka">
+                    <img id="r"src="reszka.png" alt="reszka">
+                </button>
+            </div>
+            <div class="mnoznik3">Mnożnik
+                <div class="mnoznik4">Wygrana x2</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Hubert Bolałek Casino. Wszelkie prawa zastrzeżone.
+    </footer>
+    <script src="scripts2.js"></script>
+</body>
+</html>
